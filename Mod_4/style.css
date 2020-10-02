@@ -1,5 +1,5 @@
 body.blue{
-	background-color: blue;	
+	background-color: blue;
 }
 #wrapper{
 	margin: 100px 50px 100px 50px ;
@@ -54,10 +54,10 @@ em.yellow{
 	padding-left: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #006600;
 }
 div.padding{
 	padding: 10px 2px 15px 2px;
+	background-color: #006600;
 }
 p.above{
 	margin-bottom: 15px;
