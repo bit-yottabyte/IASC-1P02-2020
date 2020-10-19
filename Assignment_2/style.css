@@ -1,0 +1,39 @@
+/*This will change the color of the text*/
+p.changeColor{
+  color: lightSalmon;
+}
+/*This will change the size of the text*/
+p.textSizeChange{
+  font-size: 18px;
+}
+/*This is a grouped selector and also changes the font of the text*/
+h1, h2{
+  font-family: "Courier new", monospace;
+}
+/*This will change the text to all capitals*/
+p.capitalizer{
+  text-transform: capitalize;
+}
+/*This is a nested selector*/
+div p{
+  background-color: lightblue;
+}
+div.absolute{
+  background-color: steelblue;
+  position: absolute;
+  margin: 25px;
+  border: 4px dotted;
+  padding: 30px;
+}
+div.relative{
+  position: relative;
+  margin: 25px;
+  padding: 30px;
+}
+div.fixed{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 25px;
+  padding: 30px;
+}
