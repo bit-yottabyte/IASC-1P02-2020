@@ -1,0 +1,40 @@
+body{
+ background-color: #F0EAD6;
+}
+div.header{
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid;
+  background-color: #E3DAC9;
+}
+div.company{
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid;
+}
+div.main{
+  margin: 0px;
+  padding: 60px;
+  border: 1px solid;
+}
+p.center{
+  text-align: center;
+}
+.grid{
+  display: grid;
+  grid-template-areas:
+    'topLeft topRight'
+    'middleLeft middleRight'
+    'bottomLeft bottomRight'
+    'big big'
+    'footer footer';
+
+  grid-gap: 15px;
+  padding: 10px;
+}
+
+.grid > div {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #003366;
+}
