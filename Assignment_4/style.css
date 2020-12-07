@@ -1,0 +1,63 @@
+/*Athavan Jesunesan-aj18km-(6705271)*/
+body{
+  background-color: #C394F0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.spacing{
+  margin: 20px;
+  padding: 20px;
+}
+.navbar{
+  text-align: center;
+  cursor: pointer;
+  color: #F2AC64;
+  background-color: #A660E9;
+  border: solid 4px #741BC9;
+  padding: 20px;
+}
+.navbar a:hover {
+  margin: 5px;
+  padding: 5px;
+  background-color: #F2AC64;
+  color: black;
+}
+.change{
+  background-color: #1CD47A;
+}
+h1.h{
+  background-color: #198E55;
+  padding: 5px;
+}
+p.p{
+  background-color: #1CD47A;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+th, td {
+  border: solid 4px #198E55;
+  background-color: #1CD47A;
+  padding: 15px;
+  text-align: left;
+}
+div.wishlist{
+  position: absolute;
+  top:85px;
+  right: 50px;
+  background-color: #1CD47A;
+  border: solid 4px #198E55;
+}
+.button{
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 7px;
+  transition-duration: 0.7s;
+  border: #A660E9 4px;
+  background-color: #A660E9;
+}
+.button:hover {
+  color: black;
+  background-color: #F2AC64;
+
+}

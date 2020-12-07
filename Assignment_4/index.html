@@ -1,0 +1,51 @@
+<html>
+  <head>
+
+    <title>Home Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <header>
+    <nav>
+    <div class="navbar">
+      <a href="index.html">Home Page</a>
+      <a href="productoverview.html">Product Overview</a>
+      <a href="FAQ.html"/>FAQ</a>
+      <a href="wishlist.html"/>Wish-list</a>
+    </div>
+    </nav>
+    </header>
+
+      <div class="change">
+        <div class="change">
+          <h1 class="h">About</h1>
+            <p class="p"> Welcome to my website. On this page I have some cool uses of JavaScript and CSS. You will notice that the nav bar will change color when hovering over it and same goes for the buttons across the website. I used CSS to create a dynamic effect to the nav bar. You will also notice that if you click the button it will send an alert which contains the current time and date. Moreover, the piece of text below the button contains some cool JavaScript magic for the user to experience. This website is used as a mock store of sorts except you do not have to sign in or purchase any of the items with money. We will pretend that when you put an item into the Wishlist you have the chance of getting said item. There is no limit to how many items you can put into the Wishlist, just as many as there are available. This beautiful website demonstrates a triadic color scheme and of Purple, Green, and orange. With monochromatic tones to outline some content. This is to set the tone of the page which is supposed to be a fun environment to experience what code can do. The websites intent is to demonstrate the capabilities and provide a fun environment. Speaking on fun, you will notice the font of the page is comic sans which is portrayed as a humorous font and not for formal use. The product overview page contains all the items currently available to add to the Wishlist. We are also having technical difficulties with the Wishlist page as you can not remove items from the list… but then again why would you want to, however that is a feature we wanted to add. The website has a disclaimer at the bottom explaining our position with the companies that we shown, and this is for legal reasons. Our FAQ page goes into more detail about the companies shown and it also provides links in case you decide you would like to purchase the product for real. Thank you for visiting and enjoy the content.
+            </p>
+        </div>
+
+        <div class="spacing">
+          <button class="button" onclick="alert(Date())">Click to show the Date and Time</button>
+        </div>
+
+        <p id="welcome" onclick="changeText()" class="p">click here to see some JavaScript magic
+        </p>
+      </div>
+
+      <script>
+        function changeText() {
+          text = document.getElementById("welcome").innerHTML = "Taadaa!";
+        }
+      </script>
+
+        <footer>
+          <small>Disclaimer: This website is not endorsed nor represents
+            any of the companies
+            shown here. This website is purely for educational purposes.
+            All real products and links to the correct owners will be listed
+            on the FAQ Page</small>
+        </footer>
+
+  </body>
+</html>

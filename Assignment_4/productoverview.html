@@ -1,0 +1,80 @@
+<!--Athavan Jesunesan-aj18km-(6705271)-->
+<html>
+  <head>
+
+    <title>Product Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body onload="loadWishlist()">
+
+    <header>
+    <nav>
+      <div class="navbar">
+        <a href="index.html">Home Page</a>
+        <a href="productoverview.html">Product Overview</a>
+        <a href="FAQ.html"/>FAQ</a>
+        <a href="wishlist.html"/>Wish-list</a>
+      </div>
+    </nav>
+    </header>
+    <script src="javascript.js"></script>
+    <div class="spacing">
+      <table>
+        <tr>
+          <th colspan="2">Products</th>
+        </tr>
+        <tr>
+          <th>Playstation</th><th>Xbox</th>
+        </tr>
+        <tr>
+          <td>
+            <a href="product1.html">
+            <img alt="Playstation 3" src="PS3.jpg" width="210" height="200"/>
+            </a>
+            <button class="button" onclick="add(product1)" id="product1" value="PS3">add to wishlist</button>
+            <p>Playstation 3</p>
+          </td>
+          <td>
+            <a href="product3.html">
+            <img alt="Xbox360" src="Xbox360.jpg" width="210" height="200"/>
+            </a>
+            <button class="button" onclick="add(product3)" id ="product3" value="Xbox360">add to wishlist</button>
+            <p>Xbox 360</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="product2.html">
+            <img alt="Playstation 4" src="PS4.jpg" width="210" height="200"/>
+            </a>
+            <button class="button" onclick="add(product2)" id ="product2" value="PS4">add to wishlist</button>
+            <p>Playstation 4</p>
+          </td>
+          <td>
+            <a href="product4.html">
+            <img alt="Xbox One" src="XboxOne.jpg" width="210" height="200"/>
+            </a>
+            <button class="button" onclick="add(product4)" id ="product4" value="XboxOne">add to wishlist</button>
+            <p>Xbox One</p>
+          </td>
+        </tr>
+       </table>
+     </div>
+
+     <div class="wishlist">
+       <p>WishList</p>
+       <ul id="items"></ul>
+
+     </div>
+
+     <footer><small>Disclaimer: This website is not endorsed nor represents
+       any of the companies
+       shown here. This website is purely for educational purposes.
+       All real products and links to the correct owners will be listed
+       on the FAQ Page</small>
+     </footer>
+
+  </body>
+</html>

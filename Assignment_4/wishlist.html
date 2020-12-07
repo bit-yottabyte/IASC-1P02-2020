@@ -1,0 +1,48 @@
+<!--Athavan Jesunesan-aj18km-(6705271)-->
+<html>
+  <head>
+
+    <title>WishList Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body onload="loadWishlist()">
+    <header>
+    <nav>
+    <div class="navbar">
+      <a href="index.html">Home Page</a>
+      <a href="productoverview.html">Product Overview</a>
+      <a href="FAQ.html"/>FAQ</a>
+      <a href="wishlist.html"/>Wish-list</a>
+    </div>
+    </nav>
+    </header>
+    <script src="javascript.js"></script>
+      <div class="spacing">
+        <h1>WishList</h1>
+           <ul>
+             <li>Playstation 3 <button  class="button" onclick="remove(product1)" id="product11" value="PS3">remove from wishlist</button></li>
+             <li>Playstation 4 <button  class="button" onclick="remove(product2)" id="product22" value="PS4">remove from wishlist</button></li>
+             <li>Xbox360 <button  class="button" onclick="remove(product3)" id="product33" value="Xbox360">remove from wishlist</button></li>
+             <li>Xbox One <button  class="button" onclick="remove(product4)" id="product44" value="XboxOne">remove from wishlist</button></li>
+           </ul>
+           <div class="wishlist">
+             <p>WishList</p>
+             <ul id="items"></ul>
+           </div>
+
+      </div>
+
+
+
+
+     <footer><small>Disclaimer: This website is not endorsed nor represents
+       any of the companies
+       shown here. This website is purely for educational purposes.
+       All real products and links to the correct owners will be listed
+       on the FAQ Page</small>
+     </footer>
+
+  </body>
+</html>
